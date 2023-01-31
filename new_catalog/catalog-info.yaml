@@ -1,0 +1,15 @@
+apiVersion: foobar.backstage.io/v1beta3
+kind: Dataset
+metadata:
+  name: custom-kind-spike
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
+  name: datatset
+  description: asd
