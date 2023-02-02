@@ -1,5 +1,5 @@
-apiVersion: foobar.backstage.io/v1beta3
-kind: Dataset
+apiVersion: ada-ubs/v1
+kind: DataProduct
 metadata:
   name: custom-kind-spike
   description: An example of a Backstage application.
@@ -11,5 +11,5 @@ spec:
   type: website
   owner: john@example.com
   lifecycle: experimental
-  name: datatset
+  name: data-product
   description: asd
